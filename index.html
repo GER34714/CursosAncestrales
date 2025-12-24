@@ -2,103 +2,110 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Curso de Churros Artesanales | Método Ancestral</title>
+  <title>Churros Artesanales Ancestrales | Método Ancestral</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description" content="Aprendé el arte ancestral de hacer churros a mano. Receta milenaria de origen tibetano, 100% artesanal, sin máquinas ni procesos industriales." />
+  <meta name="description" content="Curso premium de Churros Artesanales Ancestrales. Método hecho a mano, receta antigua de origen monástico. Aprendé el verdadero arte del churro artesanal." />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Curso de Churros Artesanales | Método Ancestral" />
-  <meta property="og:description" content="Una receta milenaria, hecha a mano, imposible de copiar con máquinas. Aprendé el verdadero arte del churro artesanal." />
+  <meta property="og:title" content="Churros Artesanales Ancestrales | Curso Premium" />
+  <meta property="og:description" content="Aprendé un método ancestral, 100% artesanal, sin máquinas. Un arte transmitido a través del tiempo." />
+  <meta property="og:image" content="https://iili.io/fG4TMf2.md.png" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Curso+de+Churros+Artesanales" />
 
-  <link rel="icon" type="image/png" href="https://via.placeholder.com/64.png" />
+  <link rel="icon" type="image/png" href="https://iili.io/fG4TMf2.md.png" />
 
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Georgia', serif;
     }
 
     body {
-      background: #0f0f0f;
       color: #f5f5f5;
       line-height: 1.6;
+      background: #000;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: url('https://iili.io/fG4AJ3B.md.jpg') center/cover no-repeat;
+      filter: brightness(0.25);
+      z-index: -2;
     }
 
     section {
-      padding: 60px 20px;
       max-width: 1100px;
       margin: auto;
+      padding: 70px 20px;
     }
 
     h1, h2, h3 {
+      color: #f3c66a;
       margin-bottom: 20px;
       line-height: 1.2;
     }
 
     p {
       margin-bottom: 16px;
-      color: #dcdcdc;
+      color: #e0e0e0;
     }
 
     .hero {
       text-align: center;
-      padding: 90px 20px;
-      background: radial-gradient(circle at top, #2a1a00, #0f0f0f);
+      padding-top: 90px;
+    }
+
+    .logo {
+      max-width: 260px;
+      margin: 0 auto 30px;
+      display: block;
     }
 
     .hero h1 {
-      font-size: 2.6rem;
-      color: #f5c26b;
-    }
-
-    .hero p {
-      font-size: 1.1rem;
-      max-width: 700px;
-      margin: 20px auto 30px;
+      font-size: 2.4rem;
     }
 
     .btn {
       display: inline-block;
-      padding: 15px 30px;
-      background: #f5c26b;
+      margin-top: 25px;
+      padding: 15px 35px;
+      background: #f3c66a;
       color: #000;
       text-decoration: none;
       font-weight: bold;
       border-radius: 50px;
-      transition: transform .2s, box-shadow .2s;
-      box-shadow: 0 0 20px rgba(245,194,107,0.4);
+      box-shadow: 0 0 25px rgba(243,198,106,0.5);
+      transition: transform .2s;
     }
 
     .btn:hover {
       transform: scale(1.05);
-      box-shadow: 0 0 30px rgba(245,194,107,0.7);
     }
 
     .box {
-      background: #151515;
-      border-radius: 16px;
-      padding: 30px;
-      margin-bottom: 30px;
-      border: 1px solid rgba(255,255,255,0.05);
+      background: rgba(0,0,0,0.7);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px;
+      padding: 35px;
+      margin-bottom: 40px;
     }
 
     ul {
       list-style: none;
-      padding-left: 0;
     }
 
     ul li {
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
 
     ul li::before {
       content: "✔ ";
-      color: #f5c26b;
+      color: #f3c66a;
       font-weight: bold;
     }
 
@@ -109,26 +116,25 @@
 
     .cta {
       text-align: center;
-      background: linear-gradient(135deg, #2a1a00, #0f0f0f);
+      background: rgba(0,0,0,0.85);
       border-radius: 20px;
-      padding: 60px 20px;
-    }
-
-    .cta h2 {
-      color: #f5c26b;
-      margin-bottom: 20px;
     }
 
     footer {
       text-align: center;
-      padding: 30px;
+      padding: 30px 15px;
       font-size: 0.9rem;
-      color: #888;
+      color: #aaa;
+      background: rgba(0,0,0,0.85);
     }
 
     @media (max-width: 768px) {
       .hero h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
+      }
+
+      .logo {
+        max-width: 200px;
       }
     }
   </style>
@@ -138,12 +144,15 @@
 
   <!-- HERO -->
   <section class="hero">
+    <img src="https://iili.io/fG4TMf2.md.png" alt="Churros Artesanales Ancestrales" class="logo">
+
     <h1>El arte ancestral de hacer churros a mano</h1>
     <p>
-      Una receta milenaria de origen tibetano.  
-      100% artesanal, sin máquinas, sin procesos industriales y con un sabor imposible de replicar.
+      Un método tradicional, transmitido a través del tiempo.  
+      100% artesanal · Sin máquinas · Sin procesos industriales.
     </p>
-    <a class="btn" href="https://wa.me/5491112345678?text=Hola%20quiero%20info%20sobre%20el%20curso%20de%20churros%20artesanales" target="_blank">
+
+    <a class="btn" href="https://wa.me/5491169588404?text=Hola%20quiero%20información%20sobre%20el%20curso%20de%20Churros%20Artesanales%20Ancestrales" target="_blank">
       Consultar por WhatsApp
     </a>
   </section>
@@ -151,19 +160,15 @@
   <!-- HISTORIA -->
   <section>
     <div class="box">
-      <h2>Una receta que nació hace siglos</h2>
+      <h2>Una receta que trasciende generaciones</h2>
       <p>
-        Esta técnica se originó en antiguos monasterios tibetanos, en una época donde no existían máquinas
-        ni procesos industriales.
+        Este método nace en antiguas tradiciones monásticas, en tiempos donde el trabajo manual
+        era la única forma de crear alimentos auténticos.
       </p>
       <p>
-        Los churros se elaboraban completamente a mano, respetando tiempos, texturas y movimientos precisos
-        que hoy casi se han perdido.
+        Cada paso respeta técnicas antiguas, texturas precisas y tiempos naturales.
       </p>
-      <p>
-        Este curso no enseña una receta moderna.  
-        <strong>Enseña un arte.</strong>
-      </p>
+      <p><strong>No es una receta moderna. Es un arte.</strong></p>
     </div>
   </section>
 
@@ -175,7 +180,7 @@
       <ul>
         <li>Personas que buscan churros artesanales reales</li>
         <li>Emprendedores que quieren diferenciarse</li>
-        <li>Quienes quieren vender un producto premium</li>
+        <li>Quienes desean vender un producto premium</li>
         <li>Amantes de la cocina tradicional</li>
       </ul>
     </div>
@@ -184,50 +189,36 @@
       <h3>No es para vos si…</h3>
       <ul class="not">
         <li>Buscás producción industrial</li>
-        <li>Querés usar máquinas automáticas</li>
-        <li>Esperás una receta genérica de internet</li>
+        <li>Querés usar maquinaria automática</li>
+        <li>Esperás una receta genérica</li>
       </ul>
     </div>
   </section>
 
-  <!-- QUE VAS A APRENDER -->
+  <!-- APRENDIZAJE -->
   <section>
     <h2>¿Qué vas a aprender?</h2>
     <div class="box">
       <ul>
-        <li>Preparación de masa 100% a mano</li>
-        <li>Técnicas tradicionales sin maquinaria</li>
+        <li>Preparación de masa totalmente a mano</li>
+        <li>Técnicas tradicionales ancestrales</li>
         <li>Puntos exactos de textura y cocción</li>
-        <li>Secretos que no se enseñan en cursos comunes</li>
-        <li>Cómo lograr un churro único y auténtico</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- BENEFICIOS -->
-  <section>
-    <h2>Beneficios reales</h2>
-    <div class="box">
-      <ul>
-        <li>Producto imposible de copiar</li>
-        <li>Diferenciación total frente a la competencia</li>
-        <li>Mayor valor percibido</li>
-        <li>Ideal para ventas premium</li>
-        <li>No dependés de máquinas</li>
+        <li>Secretos transmitidos por experiencia</li>
+        <li>Cómo lograr un producto único</li>
       </ul>
     </div>
   </section>
 
   <!-- INSTRUCTOR -->
   <section>
-    <h2>Sobre el instructor</h2>
+    <h2>Instructor del método ancestral</h2>
     <div class="box">
       <p>
-        Instructor con conocimiento directo del método tradicional, transmitido de generación en generación.
+        <strong>Daniel Aureliano</strong> transmite este conocimiento respetando la técnica original,
+        sin adaptaciones industriales ni atajos modernos.
       </p>
       <p>
-        No es un curso teórico.  
-        Es experiencia real aplicada.
+        Un aprendizaje práctico, directo y auténtico.
       </p>
     </div>
   </section>
@@ -236,16 +227,19 @@
   <section class="cta">
     <h2>Cupos limitados</h2>
     <p>
-      Consultá ahora por WhatsApp y recibí toda la información del curso.
+      Consultá directamente con el instructor y recibí toda la información del curso.
     </p>
-    <a class="btn" href="https://wa.me/5491112345678?text=Hola%20quiero%20info%20sobre%20el%20curso%20de%20churros%20artesanales" target="_blank">
-      Hablar por WhatsApp
+
+    <a class="btn" href="https://wa.me/5491169588404?text=Hola%20quiero%20información%20sobre%20el%20curso%20de%20Churros%20Artesanales%20Ancestrales" target="_blank">
+      Hablar con Daniel por WhatsApp
     </a>
   </section>
 
   <footer>
-    © 2025 – Curso de Churros Artesanales · Método Ancestral
+    © 2025 · Churros Artesanales Ancestrales  
+    <br>
+    Instructor del método ancestral: Daniel Aureliano
   </footer>
 
 </body>
-  </html>
+</html>
