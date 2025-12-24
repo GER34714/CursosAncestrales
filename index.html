@@ -10,10 +10,10 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Churros Artesanales Ancestrales | Curso Premium" />
   <meta property="og:description" content="Aprendé un método ancestral, 100% artesanal, sin máquinas. Un arte transmitido a través del tiempo." />
-  <meta property="og:image" content="https://iili.io/fG4TMf2.md.png" />
+  <meta property="og:image" content="https://iili.io/fG6Xo1S.md.png" />
   <meta property="og:type" content="website" />
 
-  <link rel="icon" type="image/png" href="https://iili.io/fG4TMf2.md.png" />
+  <link rel="icon" type="image/png" href="https://iili.io/fG6Xo1S.md.png" />
 
   <style>
     * {
@@ -114,10 +114,79 @@
       color: #ff6b6b;
     }
 
+    /* CTA */
     .cta {
       text-align: center;
-      background: rgba(0,0,0,0.85);
-      border-radius: 20px;
+      background: rgba(0,0,0,0.88);
+      border-radius: 22px;
+      padding: 70px 20px;
+      border: 1px solid rgba(243,198,106,0.20);
+      box-shadow: 0 0 40px rgba(243,198,106,0.10);
+    }
+
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .cta p {
+      max-width: 720px;
+      margin: 0 auto 18px;
+      font-size: 1.05rem;
+    }
+
+    .cta .micro {
+      font-size: 0.95rem;
+      color: #cfcfcf;
+      margin-top: 12px;
+    }
+
+    /* WhatsApp Floating CTA */
+    .wa-float {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 14px;
+      border-radius: 999px;
+      background: rgba(0,0,0,0.78);
+      border: 1px solid rgba(243,198,106,0.35);
+      box-shadow: 0 0 24px rgba(243,198,106,0.18);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      text-decoration: none;
+      color: #f5f5f5;
+      font-weight: 700;
+      transition: transform .18s ease;
+    }
+
+    .wa-float:hover { transform: translateY(-2px); }
+
+    .wa-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      display: grid;
+      place-items: center;
+      background: #f3c66a;
+      color: #000;
+      font-size: 20px;
+      line-height: 1;
+      box-shadow: 0 0 18px rgba(243,198,106,0.45);
+    }
+
+    .wa-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+
+    .wa-text small {
+      font-weight: 500;
+      color: #cfcfcf;
     }
 
     footer {
@@ -129,13 +198,10 @@
     }
 
     @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 1.9rem;
-      }
-
-      .logo {
-        max-width: 260px;
-      }
+      .hero h1 { font-size: 1.9rem; }
+      .logo { max-width: 260px; }
+      .cta h2 { font-size: 1.7rem; }
+      .wa-float { right: 12px; bottom: 12px; }
     }
   </style>
 </head>
@@ -144,7 +210,7 @@
 
   <!-- HERO -->
   <section class="hero">
-    <img src="https://iili.io/fG4TMf2.md.png" alt="Churros Artesanales Ancestrales" class="logo">
+    <img src="https://iili.io/fG6Xo1S.md.png" alt="Churros Artesanales Ancestrales" class="logo">
 
     <h1>El arte ancestral de hacer churros a mano</h1>
     <p>
@@ -152,7 +218,8 @@
       100% artesanal · Sin máquinas · Sin procesos industriales.
     </p>
 
-    <a class="btn" href="https://wa.me/5491169588404?text=Hola%20quiero%20información%20sobre%20el%20curso%20de%20Churros%20Artesanales%20Ancestrales" target="_blank">
+    <!-- BOTÓN WHATSAPP OFICIAL -->
+    <a class="btn" href="https://wa.me/5491169588404?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Churros%20Artesanales%20Ancestrales" target="_blank" rel="noopener">
       Consultar por WhatsApp
     </a>
   </section>
@@ -172,7 +239,7 @@
     </div>
   </section>
 
-  <!-- PARA QUIEN ES -->
+  <!-- PARA QUIÉN ES -->
   <section>
     <h2>¿Para quién es este curso?</h2>
 
@@ -223,16 +290,21 @@
     </div>
   </section>
 
-  <!-- CTA FINAL -->
-  <section class="cta">
-    <h2>Cupos limitados</h2>
-    <p>
-      Consultá directamente con el instructor y recibí toda la información del curso.
-    </p>
+  <!-- CTA FINAL (OPTIMIZADO) -->
+  <section>
+    <div class="cta">
+      <h2>Consultá cupos y modalidad</h2>
+      <p>
+        Si querés aprender el método artesanal real y diferenciarte con un producto premium,
+        escribinos ahora y te pasamos toda la info.
+      </p>
 
-    <a class="btn" href="https://wa.me/5491169588404?text=Hola%20quiero%20información%20sobre%20el%20curso%20de%20Churros%20Artesanales%20Ancestrales" target="_blank">
-      Hablar con Fernando por WhatsApp
-    </a>
+      <a class="btn" href="https://wa.me/5491169588404?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Churros%20Artesanales%20Ancestrales" target="_blank" rel="noopener">
+        Hablar por WhatsApp
+      </a>
+
+      <div class="micro">Respuesta rápida · Sin compromiso</div>
+    </div>
   </section>
 
   <footer>
@@ -240,6 +312,15 @@
     <br>
     Instructor del método ancestral: Fernando Castillo
   </footer>
+
+  <!-- CTA WHATSAPP FLOTANTE -->
+  <a class="wa-float" href="https://wa.me/5491169588404?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Churros%20Artesanales%20Ancestrales" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <div class="wa-icon">WA</div>
+    <div class="wa-text">
+      <span>WhatsApp</span>
+      <small>Consultá ahora</small>
+    </div>
+  </a>
 
 </body>
 </html>
